@@ -16,7 +16,7 @@ function Dates() {
       localStorage.setItem(
         "@pillsTracker",
         JSON.stringify([
-          { name: new Date(), cosaminAsu: [], colagenTypeII: new Date() },
+          { name: new Date(), cosaminAsu: [], colagenTypeII: null },
         ])
       );
     }
