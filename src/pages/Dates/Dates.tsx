@@ -34,6 +34,7 @@ function Dates() {
       dayjs(getItems[getItems.length - 1].name).format("MM/DD/YYYY") ===
       dayjs(new Date()).format("MM/DD/YYYY")
     ) {
+      alert("You arealdy added one item today.");
       return;
     }
 
